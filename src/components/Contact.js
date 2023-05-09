@@ -10,7 +10,10 @@ function Contact() {
             I've learned and used languages including JavaScript, HTML, CSS, SQL,
             MongoDB, Express, React and Node.js.</h5>
             <br/>Thanks for viewing my portfolio! Let's connect: 👩🏻‍💻
-      
+            <button>
+  <i className="fas fa-check"></i> Submit
+</button>
+
     </section>
   );
 }
