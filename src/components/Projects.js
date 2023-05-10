@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from "./ProjectCard";
+// import ProjectCard from "./ProjectCard";
 import Tuter from "../img/tuter.png";
 import PawPals from "../img/logo.gif";
 import TTT from "../img/ttt.png";
@@ -19,37 +19,40 @@ import CC from "../img/cc.jpeg";
       title: "PawPals",
       description: "Welcome to the Paw Pals! Our mission is to help find loving homes for animals in need. Whether you're looking for a cuddly cat, a playful pup, or a quirky rabbit, you'll find your perfect match here. Our extensive database of available pets includes detailed information on breed, age, personality, and more to help you find the right fit for your family. Adopting a pet is a big decision, and we're here to support you every step of the way. Our knowledgeable staff is available to answer any questions you may have, and our resources page includes information on pet care, training, and more. Start your search today and give an animal in need a second chance at a happy home!",
       image: PawPals,
-      link: "https://example.com/tuter"
+      link: "https://github.com/thebobfather2/pawpals"
     },
     {
       id: 3,
       title: "Sarah Jacobs Writes",
       description: "Sarah Jacobs is an aspiring author with an array of books and short stories in her portfolio. She uses this website as her landing page for friends and family to browse through her works as well as purchase products through Amazon links.",
       image: SJW,
-      link: "https://example.com/tuter"
+      link: "https://github.com/sarahgjacobs/sarahjacobswrites"
     },
     {
         id: 4,
         title: "Carrot Calendar",
         description: "Gaining over $100k in revenue per year, Bobbys Rabbits needed a simple, efficient way to coordinate community events ro boost interaction and sales. Carrot Calendar is a user-friendly calendar intended to handle online events, RSVPs and monetary transactions.",
         image: CC,
-        link: "https://example.com/tuter"
+        link: "https://github.com/thebobfather2/carrotcalendar"
       },
       {
         id: 5,
         title: "Time to Travel",
         description: "Time to Travel is a fun interactive website for consumers who want to travel in the future and seek an all-in-one alternative to planning accordingly. Time to Travel will allow users to search their intended destination and learn about different aspects of the location, including weather and scenery.",
         image: TTT,
-        link: "https://example.com/tuter"
+        link: "https://github.com/sarahgjacobs"
       },
   ];
   
-  const Card = ({ title, description, image }) => {
+  const Card = ({ title, description, image, link }) => {
     return (
       <div className="card">
         <img src={image} alt={title} />
         <h2>{title}</h2>
         <p>{description}</p>
+        <a href={link} target="_blank" rel="noopener noreferrer">
+      <button className="card-button">Learn More</button>
+    </a>
       </div>
     );
   };
@@ -64,6 +67,7 @@ import CC from "../img/cc.jpeg";
             title={project.title}
             description={project.description}
             image={project.image}
+            link={project.link}
           />
         ))}
       </div>
