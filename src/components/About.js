@@ -2,37 +2,73 @@ import React from 'react';
 
 function About() {
   return (
-    <section>
-      <h1>About Sarah Jacobs</h1>
-      <div>
-      <table>
-        <h2>Languages & Tools</h2>
+    <table class="my-table">
+  <thead>
+    <tr>
+      <th class="th-large">Education</th>
+      <th class="th-large">Languages</th>
+    </tr>
+  </thead>
   <tr>
-    <td>HTML</td>
-    <td><i class="fab fa-html5"></i></td>
-    <td>JavaScript</td>
-    <td><i class="fab fa-js"></i></td>
-    <td>CSS</td>
-    <td><i class="fab fa-css3"></i></td>
+    <td>Georgia Tech Bootcamp</td>
+    <td><i class="fab fa-js"></i> JavaScript </td>
   </tr>
   <tr>
-    <td>Education</td>
-    <td colspan="5">
-      <ul>
-        <li>Georgia Institute of Technology</li>
-        <li>Georgia College & State University</li>
-      </ul>
+    <td id="education-text">24-week intensive program focused on gaining technical programming skills. Learn more <a href="https://bootcamp.pe.gatech.edu/">here</a>.</td>
+    <td><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> HTML/CSS </td>
+  </tr>
+  <tr>
+    <td>
+    Georgia College & State University
     </td>
+    <td><i class="fab fa-react"></i> React </td>
   </tr>
+  <tr>
+    <td id="education-text">
+      BA in Communication with a concentration in Digital Media
+    </td>
+    <td><i class="fas fa-database"></i> SQL </td>
+  </tr>
+  <tr>
+    <td>
+
+    </td>
+    <td><i class="fab fa-node-js"></i> Node.js </td>
+  </tr>
+  <tr>
+    <td>
+
+    </td>
+    <td><i class="fab fa-node-js"></i> Express</td>
+  </tr>
+  <tr>
+    <td>
+
+    </td>
+    <td><i class="fab fa-creative-commons-sa"></i> MongoDB</td>
+  </tr>
+  <tr>
+    <td>
+
+    </td>
+    <td><i class="fab fa-python"></i> Python</td>
+  </tr>
+  <tr>
+    <td>
+
+    </td>
+    <td><i class="fab fa-java"></i> Java</td>
+  </tr>
+  <tr>
+    <td>
+
+    </td>
+    <td>Agile Methodology, OOP, MVC, jQuery, Version Control/Git, Bootstrap</td>
+  </tr>
+  
 </table>
 
-        <h2>Education</h2>
-        <h3>Georgia Tech Bootcamp</h3>
-        <h6>This is where I'll put the info about GT</h6>
-        <h3>Georgia College & State University</h3>
-        <h6>BA in Communication with a concentration in Digital Media</h6>
-      </div>
-    </section>
+
   );
 }
 

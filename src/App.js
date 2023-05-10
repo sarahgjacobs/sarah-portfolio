@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Sjportfolio from './components/Sjportfolio';
 import About from './components/About';
+import Footer from './components/Footer.js';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/projects'element={<Projects />}/>
       <Route path='/contact'element={<Contact />}/>    
     </Routes>
+    <Footer />
   </Router>
   
   );
