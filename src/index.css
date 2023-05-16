@@ -48,7 +48,7 @@ h5 {
   position: absolute;
   top: -50px; /* Start the button off the top of the page
   /* left: calc(50% - 130px); Center the button horizontally */
-  animation: fall 3s ease forwards; /* Animate the button falling down */
+  animation: fall .5s ease forwards; /* Animate the button falling down */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,14 +62,14 @@ h5 {
   position: absolute;
   top: -120px;
   left: calc(38%);
-  animation: fall 3s ease forwards;
+  animation: fall .5s ease forwards;
 }
 
 #falling-button {
   position: absolute;
   top: -50px;
   left: calc(50% - 130px);
-  animation: fall 3s ease forwards;
+  animation: fall .5s ease forwards;
   display: flex;
   justify-content: center;
   align-items: center;
