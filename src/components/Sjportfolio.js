@@ -19,9 +19,9 @@ function About() {
         <ul id="hobbies">
         <h3>In my free time I enjoy:</h3>
           <li>Learning Korean</li>
-          <li>Writing Stories</li>
+          <li>Writing Stories (<a href="https://sarahgjacobs.github.io/sarahjacobswrites/#">Check them out here</a>)</li>
           <li>Going for runs</li>
-          <li>Reading (Currently reading: Clean Code by Robert Martin)</li>
+          <li>Reading (Currently reading: Memoirs of a Geisha by Arthur Golden and Clean Code by Robert Martin)</li>
           <li>Playing video games with friends</li>
         </ul>
         {/* <div id="picture-container">

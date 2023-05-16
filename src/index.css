@@ -194,11 +194,12 @@ section {
 }
 
 .my-table {
-  width: 100%;
-  border-collapse: separate;
+  margin-top: 20px;
   border-spacing: 0;
-  box-shadow: 0px 3px 3px rgba(121, 112, 122, 0.25);
-  background-color: rgb(185, 118, 207);
+  border-radius: 8px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  display: inline-block;
 }
 
 .th-large {
@@ -220,6 +221,7 @@ th {
 
 #education-text {
   font-size: .9rem;
+  font-weight: 500;
 }
 
 .my-table td:first-child {
@@ -274,7 +276,7 @@ th {
   color:rgb(227, 150, 252);
   font-size: 3rem;
   margin-bottom: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .connect-fa {

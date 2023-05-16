@@ -14,7 +14,7 @@ function About() {
     <td><i class="fab fa-js"></i> JavaScript </td>
   </tr>
   <tr>
-    <td id="education-text">24-week intensive program focused on gaining technical programming skills. Learn more <a href="https://bootcamp.pe.gatech.edu/">here</a>.</td>
+    <td id="education-text">24-week intensive program focused on gaining technical programming skills to prepare engineers for a profesisonal career.</td>
     <td><i class="fab fa-html5"></i> <i class="fab fa-css3-alt"></i> HTML/CSS </td>
   </tr>
   <tr>
