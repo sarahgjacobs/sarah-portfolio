@@ -44,6 +44,7 @@ function Navbar() {
         <nav style={styles.navbar}>
             <h1 style={{ width: "100%", justifyContent: "center", backgroundcolor: 'rgb(227, 150, 252)' }}>Sarah Jacobs</h1>
             <ul style={styles.navLinks}>
+                
                 <li style={styles.navItem}>
                     <Link to="/" style={styles.navLink}>Home</Link>
                 </li>

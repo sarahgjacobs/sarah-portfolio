@@ -5,6 +5,7 @@ import PawPals from "../img/logo.gif";
 import TTT from "../img/ttt.png";
 import SJW from "../img/sjw.png";
 import CC from "../img/cc.jpeg";
+import TC from "../img/thecircuit.PNG";
 
   const projects = [
     {
@@ -59,7 +60,7 @@ import CC from "../img/cc.jpeg";
   
   const Portfolio = () => {
     return (
-        <div className="card-grid">
+        <div className="card-grid" style={{ marginTop: '20px', marginBottom: '100px'}}>
       <div className="portfolio">
         {projects.map((project) => (
           <Card
@@ -70,6 +71,14 @@ import CC from "../img/cc.jpeg";
             link={project.link}
           />
         ))}
+      </div>
+      <div className="next-project" style={{ display: "flex" }}>
+      <div>
+    <h2 style={{ marginLeft: '15px' }}>My next project:</h2>
+    <p style={{ fontWeight: 'bold', marginRight: '20px', marginLeft: '15px' }}>"The Circuit": an interactive landing page for a fiction novel that will include games, excerpts, and promotional content. Built with React, JavaScript, and more.</p>
+  </div>
+        <img src={TC} style={{ marginTop: "0px", width: "25%", marginLeft: "auto", display: "flex", alignItems: "center", marginRight: "20px" }} alt="Project Image" className="project-image" />
+
       </div>
       </div>
     );
