@@ -379,10 +379,87 @@ th {
   display: flex;
   justify-content: center;
   align-items: center;
- 
+  position: relative;
 }
 
 .footer a {
   margin: 0 10px;
   margin-bottom: 1;
 }
+
+@media screen and (min-width: 768px) {
+  body {
+    padding-bottom: 20px;
+  }
+
+  .footer {
+    position: relative;
+  }
+
+  img.project-image {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 400px; 
+  }
+
+  .card-grid {
+    justify-content: flex-start;
+  }
+
+  .next-project {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .next-project h2,
+  .next-project p {
+    margin: 10px;
+  }
+
+  .next-project .project-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  img.project-image {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 300px; 
+  }
+
+  body {
+    padding: 0 1%;
+  }
+  
+  .navbar__item {
+    margin-right: 20px;
+  }
+  
+  .card {
+    padding: 0.5rem;
+  }
+  
+  .card h2 {
+    font-size: 1.2rem;
+  }
+  
+  .card p {
+    font-size: 16px;
+  }
+  
+  .connect {
+    font-size: 2rem;
+  }
+  
+  .next-project {
+    padding: 0.5rem;
+  }
+  
+  .footer a {
+    margin: 0 5px;
+  }
+}
+

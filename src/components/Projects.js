@@ -72,14 +72,6 @@ import TC from "../img/thecircuit.PNG";
           />
         ))}
       </div>
-      <div className="next-project" style={{ display: "flex" }}>
-      <div>
-    <h2 style={{ marginLeft: '15px' }}>My next project:</h2>
-    <p style={{ fontWeight: 'bold', marginRight: '20px', marginLeft: '15px' }}>"The Circuit": an interactive landing page for a fiction novel that will include games, excerpts, and promotional content. Built with React, JavaScript, and more.</p>
-  </div>
-        <img src={TC} style={{ marginTop: "0px", width: "25%", marginLeft: "auto", display: "flex", alignItems: "center", marginRight: "20px" }} alt="Project Image" className="project-image" />
-
-      </div>
       </div>
     );
   };
