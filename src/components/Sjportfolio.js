@@ -1,4 +1,7 @@
 import React from 'react';
+import resume from "../img/SJ_resume.docx";
+import pdf from "../img/SJacobs_resume.pdf";
+
 
 
 function About() {
@@ -15,9 +18,18 @@ function About() {
         <h1 id="port">Welcome to My Portfolio!</h1>
         <h2>I'm Sarah Jacobs, a <i>Software Engineer</i> based in Atlanta, GA. I have a strong background in communication, digital media, and leadership which I've combined with a Coding certification from Georgia Tech Bootcamps. Now I am currently seeking roles in the tech industry ranging from Development to Databases. See more of my experience and languages, then head over to the Projects tab to see it all in action.</h2>
         <br></br>
-        
+        <a href={pdf} download>
+          <button className="download-button">Resume PDF</button>
+        </a>
+        <a href={resume} download>
+          <button className="download-button">Resume Docx</button>
+        </a>
+
+
+        <br></br>
+
         <ul id="hobbies">
-        <h3>In my free time I enjoy:</h3>
+          <h3>In my free time I enjoy:</h3>
           <li>Learning Korean</li>
           <li>Writing Stories (<a href="https://sarahgjacobs.github.io/sarahjacobswrites/#">Check them out here</a>)</li>
           <li>Going for runs</li>
