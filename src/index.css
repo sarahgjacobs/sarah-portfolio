@@ -379,7 +379,6 @@ th {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .footer a {
@@ -392,9 +391,7 @@ th {
     padding-bottom: 20px;
   }
 
-  .footer {
-    position: relative;
-  }
+  
 
   img.project-image {
     width: 100%;
@@ -456,6 +453,10 @@ th {
   
   .next-project {
     padding: 0.5rem;
+  }
+  
+  .footer {
+    position: relative;
   }
   
   .footer a {

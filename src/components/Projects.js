@@ -72,6 +72,18 @@ import TC from "../img/thecircuit.PNG";
           />
         ))}
       </div>
+      <div className="next-project">
+  <div>
+    <h2>My Next Project:</h2>
+    <p>"The Circuit": an interactive landing page for a fiction novel that will include games, excerpts, and promotional content. Built with React, JavaScript, and more.</p>
+  </div>
+  <img
+    src={TC}
+    alt="The Circuit Project"
+    className="project-image"
+  />
+</div>
+
       </div>
     );
   };
