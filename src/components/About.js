@@ -6,7 +6,7 @@ function About() {
   <thead>
     <tr>
       <th class="th-large">Education</th>
-      <th class="th-large">Languages</th>
+      <th >Languages</th>
     </tr>
   </thead>
   <tr>

@@ -258,7 +258,7 @@ section {
 
 th {
   width: 35%;
-  background-color: #4d4d4d;
+  background-color: rgb(192, 119, 224);
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -276,7 +276,7 @@ th {
 
 .my-table td:first-child {
   width: 35%;
-  background-color: #4d4d4d;
+  background-color: rgb(192, 119, 224);
   color: white;
   font-weight: bold;
   padding: 10px;
@@ -458,7 +458,7 @@ th {
   .footer {
     position: relative;
   }
-  
+
   .footer a {
     margin: 0 5px;
   }
