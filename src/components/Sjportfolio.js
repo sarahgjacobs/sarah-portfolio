@@ -16,7 +16,7 @@ function About() {
 
       <section id="welcome-page">
         <h1 id="port">Welcome to My Portfolio!</h1>
-        <h2>I'm Sarah Jacobs, a <i>Software Engineer</i> based in Atlanta, GA. I have a strong background in communication, digital media, and leadership which I've combined with a Coding certification from Georgia Tech Bootcamps. Now I am currently seeking roles in the tech industry ranging from Development to Databases. See more of my experience and languages, then head over to the Projects tab to see it all in action.</h2>
+        <h2>I'm Sarah Jacobs, a <i>Software Engineer</i> based in Atlanta, GA. I have a strong background in communication, digital media, and leadership which I've combined with a Coding certification from Georgia Tech Bootcamps. Now I am <b>currently seeking roles</b> in the tech industry. Visit the 'About' page for my languages and education, the once you're done head over to the Projects tab to see them all in action!</h2>
         <br></br>
         <a href={pdf} download>
           <button className="download-button">Resume PDF</button>

@@ -11,7 +11,7 @@ import TC from "../img/thecircuit.PNG";
     {
       id: 1,
       title: "Tuter",
-      description: "Tuter is a social networking for tutors and students to share questions, homework details and more in an online, efficient platform. Now tutors can be accurately prepared to show up to sessions with the right materials and expectations in hand. It's as simple as uploading a picture of your homework, filling out a few questions and submitting it. Then you're done and on your way to better learning!",
+      description: "Tuter is a social network for tutors and students to share questions, homework details and more in an online, efficient platform. Now tutors can be accurately prepared to show up to sessions with the right materials and expectations in hand. It's as simple as uploading a picture of your homework, filling out a few questions and submitting it. Then you're done and on your way to better learning!",
       image: Tuter,
       link: "https://github.com/thebobfather2/tuterapp"
     },
@@ -32,7 +32,7 @@ import TC from "../img/thecircuit.PNG";
     {
         id: 4,
         title: "Carrot Calendar",
-        description: "Gaining over $100k in revenue per year, Bobbys Rabbits needed a simple, efficient way to coordinate community events ro boost interaction and sales. Carrot Calendar is a user-friendly calendar intended to handle online events, RSVPs and monetary transactions.",
+        description: "Gaining over $100k in revenue per year, Bobbys Rabbits needed a simple, efficient way to coordinate community events to boost interaction and sales. Carrot Calendar is a user-friendly calendar intended to handle online events, RSVPs and monetary transactions.",
         image: CC,
         link: "https://github.com/thebobfather2/carrotcalendar"
       },
