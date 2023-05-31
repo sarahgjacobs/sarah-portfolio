@@ -96,13 +96,11 @@ h5 {
 
 #falling-button {
   position: absolute;
-  top: -50px; /* Start the button off the top of the page
-  /* left: calc(50% - 130px); Center the button horizontally */
-  animation: fall .5s ease forwards; /* Animate the button falling down */
+  top: -50px; 
+  animation: fall .5s ease forwards; 
   display: flex;
   justify-content: center;
   align-items: center;
-  /* top: 50%; */
   left: 50%;
   right: 50%;
   transform: translate(-50%, -50%);
@@ -386,12 +384,19 @@ th {
   margin-bottom: 1;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
 @media screen and (min-width: 768px) {
   body {
     padding-bottom: 20px;
   }
-
-  
 
   img.project-image {
     width: 100%;

@@ -5,6 +5,7 @@ import pdf from "../img/SJacobs_resume.pdf";
 
 
 function About() {
+  //falling animation for page loading
   const showSecondSection = () => {
     const secondSection = document.getElementById('welcome-page');
     secondSection.style.display = 'block';
@@ -36,10 +37,7 @@ function About() {
           <li>Reading (Currently reading: Memoirs of a Geisha by Arthur Golden and Clean Code by Robert Martin)</li>
           <li>Playing video games with friends</li>
         </ul>
-        {/* <div id="picture-container">
-          <img src="../img/profilepic.jpg" alt="Profile picture" />
-          
-        </div> */}
+        
       </section>
 
     </section>

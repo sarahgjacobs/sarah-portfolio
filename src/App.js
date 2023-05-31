@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+//imports font for text
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 import Navbar from './components/Navbar';

@@ -1,5 +1,6 @@
 import React from 'react';
 
+//displays a side by side table including education and leanguages
 function About() {
   return (
     <table class="my-table">
