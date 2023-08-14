@@ -75,7 +75,10 @@ import TC from "../img/thecircuit.PNG";
   const Portfolio = () => {
     return (
         <div className="card-grid" style={{ marginTop: '20px', marginBottom: '100px'}}>
+      <h1>Projects</h1>
+      <button src="https://replit.com/@sarahgjacobs" id="replit" class="card-button">Replit Projects</button>
       <div className="portfolio">
+        
         {projects.map((project) => (
           <Card
             key={project.id}
