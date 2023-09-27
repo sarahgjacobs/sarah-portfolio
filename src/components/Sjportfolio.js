@@ -3,7 +3,6 @@ import resume from "../img/SJ_resume.docx";
 import pdf from "../img/SJ_resume.pdf";
 
 
-
 function About() {
   //falling animation for page loading
   const showSecondSection = () => {
@@ -17,7 +16,13 @@ function About() {
 
       <section id="welcome-page">
         <h1 id="port">Welcome to My Portfolio!</h1>
-        <h2>I'm Sarah Jacobs, a <i>Software Developer</i> based in Atlanta, GA. I have a strong background in communication, digital media, and leadership which I've combined with a Coding certification from Georgia Tech Bootcamps. Now I am <b>currently seeking roles</b> in the tech industry. Visit the 'About' page for my languages and education, then once you're done head over to the Projects tab to see them all in action!</h2>
+        <h2>Hello, I'm Sarah Jacobs, a Software Developer based in Atlanta, GA, 
+          on a mission to blend the best of tech and creativity. With a knack 
+          for communication, a love for digital media, and a dash of teaching experience, 
+          I've infused my skills with a Coding certification from Georgia Tech 
+          Bootcamps. Now, I'm on the hunt for exciting opportunities in the tech 
+          world. Curious to know more? Swing by the 'About' page to discover my 
+          newest websites!</h2>
         <br></br>
         <a href={pdf} download>
           <button className="download-button">Resume PDF</button>
