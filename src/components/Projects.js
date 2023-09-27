@@ -92,9 +92,9 @@ import blogit from '../img/bi.png';
 
   const Portfolio = () => {
     return (
-        <div className="card-grid" style={{ marginTop: '20px', marginBottom: '100px'}}>
+        <div className="card-grid" style={{ marginTop: '10px',  flexDirection: 'column', paddingBottom: '50px'}}>
       <h1>Projects</h1>
-      <button src="https://replit.com/@sarahgjacobs" id="replit" class="card-button">Replit Projects</button>
+      <div style={{justifyContent: 'center', paddingBottom: '10px'}} className='replit'><button><a href='https://replit.com/@sarahgjacobs' id="replit" >Replit Projects</a></button></div>
       <div className="portfolio">
         
         {projects.map((project) => (
