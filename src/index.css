@@ -19,6 +19,12 @@ code {
     monospace;
 }
 
+.new-port {
+  text-decoration: none;
+  color: white;
+  font-style: italic;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
