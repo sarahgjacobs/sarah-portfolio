@@ -15,7 +15,7 @@ function About() {
       <h1 id="falling-welcome" onAnimationEnd={showSecondSection}></h1>
 
       <section id="welcome-page">
-        <h1 id="port"> <a href="https://sarahgjacobs.github.io/sarahjacobsdev/" className='new-port'>Click çhere for my newest portfolio</a></h1>
+        <h1 id="port"> <button id='port-button'><a href="https://sarahgjacobs.github.io/sarahjacobsdev/" className='new-port' id='port-button'>Click here for my newest portfolio</a></button></h1>
         <h2>Hello, I'm Sarah Jacobs, a Software Developer based in Atlanta, GA, 
           on a mission to blend the best of tech and creativity. With a knack 
           for communication, a love for digital media, and a dash of teaching experience, 
