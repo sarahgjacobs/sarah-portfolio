@@ -1,6 +1,8 @@
 import React from 'react';
 import resume from "../img/SJ_resume.docx";
 import pdf from "../img/SJ_resume.pdf";
+import { useEffect } from 'react';
+
 
 
 function About() {
@@ -10,11 +12,29 @@ function About() {
     secondSection.style.display = 'block';
   }
 
+  function RedirectExample() {
+    useEffect(() => {
+      const timeout = setTimeout(() => {
+        // 👇️ redirects to an external URL
+        window.location.replace('https://sarahgjacobs.github.io/sarahjacobsdev/');
+      }, 3000);
+  
+      return () => clearTimeout(timeout);
+    }, []);
+  
+    return <>Will redirect in 3 seconds...</>;
+  }
+
+  RedirectExample()
+
   return (
     <section>
       <h1 id="falling-welcome" onAnimationEnd={showSecondSection}></h1>
 
       <section id="welcome-page">
+      <a target='_blank'
+            rel='noopener noreferrer' href="https://sarahgjacobs.github.io/sarahjacobsdev/">Portfolio</a>
+   
         <h1 id="port"> <button id='port-button'><a href="https://sarahgjacobs.github.io/sarahjacobsdev/" className='new-port' id='port-button'>Click here for my newest portfolio</a></button></h1>
         <h2>Hello, I'm Sarah Jacobs, a Software Developer based in Atlanta, GA, 
           on a mission to blend the best of tech and creativity. With a knack 

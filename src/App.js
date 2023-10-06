@@ -15,7 +15,7 @@ function App() {
     <Router>
     <Navbar />
     <Routes>
-    <Route path='/sjportfolio'element={<Sjportfolio />}/>
+     <Route path='/sjportfolio'element={<Sjportfolio />}/>
       <Route path='/'element={<Sjportfolio />}/>
       <Route path='/about'element={<About />}/>
       <Route path='/projects'element={<Projects />}/>
