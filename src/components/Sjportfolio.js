@@ -17,12 +17,10 @@ function About() {
       const timeout = setTimeout(() => {
         // 👇️ redirects to an external URL
         window.location.replace('https://sarahgjacobs.github.io/sarahjacobsdev/');
-      }, 3000);
+      });
   
       return () => clearTimeout(timeout);
     }, []);
-  
-    return <>Will redirect in 3 seconds...</>;
   }
 
   RedirectExample()
